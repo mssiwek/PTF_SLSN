@@ -1,0 +1,311 @@
+Title: Host-Galaxy Properties of 32 Low-Redshift Superluminous Supernovae 
+       from the Palomar Transient Factory 
+Authors: Perley D.A., Quimby R.M., Yan L., Vreeswijk P.M., De Cia A., 
+         Lunnan R., Gal-Yam A., Yaron O., Filippenko A.V., Graham M.L., 
+         Laher R., Nugent P.E. 
+Table: Photometry of SLSN hosts
+================================================================================
+Byte-by-byte Description of file: apjaa3522t2_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  6 A6     ---     PTF     PTF Identifier 
+   8- 12 A5     ---     Filter  Filter
+  14- 14 A1     ---   l_omag    Limit flag on omag 
+  16- 20 F5.2   mag     omag    Magnitude, in Filter (1)
+  22- 25 F4.2   mag   e_omag    ? Uncertainty in omag  
+  27- 27 A1     ---   l_Fnu     Limit flag on Fnu
+  28- 35 F8.2   uJy     Fnu     Flux density, in Filter (2)
+  37- 43 F7.2   uJy   e_Fnu     ? Uncertainty in Fnu (2)
+  45- 54 A10    ---     Obs     Observation date, YYYY-MM-DD
+  56- 72 A17    ---     Instr   Instrument used
+  74- 84 A11    ---     Ref     Photometry reference (3)
+--------------------------------------------------------------------------------
+Note (1): Magnitudes are expressed in the conventional frame for each 
+    relevant filter and are not corrected for foreground extinction: 
+    ugriz = SDSS system;
+    BVRI  = Johnson-Cousins in Vega magnitudes.  
+    JHKs  = 2MASS;  
+    HST/Spitzer/WISE = AB magnitudes, Oke (1983ApJ...266..713O	).
+Note (2): Flux densities in uJy calculated from our standard magnitudes 
+    via Fukugita (1995), and corrected for foreground extinction.
+Note (3): Photometry Reference:
+    1 = This work;
+    2 = Angus et al. (2016MNRAS.458...84A);
+    3 = Cutri et al. (2013yCat.2328....0C);
+    4 = Lunnan et al. (2014ApJ...787..138L);
+    5 = ALLWISE (2014yCat.2328....0C).
+--------------------------------------------------------------------------------
+09as   u       23.01 0.06      2.25    0.13 2016-06-07 KeckI/LRIS        1
+09as   g       22.35 0.10      4.28    0.41 2004-12-21 SDSS              1
+09as   r       21.73 0.09      7.53    0.65 2004-12-21 SDSS              1
+09as   i       21.71 0.14      7.63    1.05 2004-12-21 SDSS              1
+09as   z       21.20 0.36     12.43    4.89 2004-12-21 SDSS              1
+09uy   u       24.18 0.16      0.81    0.13 2016-06-07 KeckI/LRIS        1
+09uy   B       23.92 0.05      1.20    0.06 2013-04-09 KeckI/LRIS        1
+09uy   R       22.53 0.05      3.16    0.15 2013-04-09 KeckI/LRIS        1
+09uy   z       22.40 0.08      4.18    0.32 2016-06-07 KeckI/LRIS        1
+09uy   J       21.34 0.13      4.71    0.60 2014-06-15 KeckI/MOSFIRE     1
+09uy   Ks      20.37 0.19      4.77    0.91 2014-06-15 KeckI/MOSFIRE     1
+09atu  F390W > 25.66      <    0.24         2013-07-11 HST/WFC3          2
+09atu  g       26.74 0.21      0.08    0.02 2013-08-04 KeckI/LRIS        1
+09atu  V       26.44 0.25      0.11    0.03 2014-04-30 KeckI/LRIS        1
+09atu  i       25.46 0.16      0.26    0.04 2013-08-04 KeckI/LRIS        1
+09atu  i       25.47 0.20      0.25    0.05 2014-04-30 KeckI/LRIS        1
+09atu  F160W > 23.42      <    1.60         2013-07-11 HST/WFC3          2
+09atu  3.6     21.76 0.23      0.55    0.13 2014-05-22 Spitzer/IRAC      1
+09cnd  F390W   24.01 0.05      0.99    0.05 2012-11-11 HST/WFC3          2
+09cnd  B       23.90 0.04      1.23    0.05 2013-08-04 KeckI/LRIS        1
+09cnd  g       23.45 0.04      1.62    0.06 2011-07-03 KeckI/LRIS        1
+09cnd  V       23.12 0.04      2.21    0.08 2014-04-30 KeckI/LRIS        1
+09cnd  r       22.93 0.04      2.58    0.10            WHT               2
+09cnd  R       22.78 0.04      2.52    0.09 2013-08-04 KeckI/LRIS        1
+09cnd  i       22.76 0.05      2.97    0.14 2014-04-30 KeckI/LRIS        1
+09cnd  J       21.55 0.08      3.89    0.30 2014-06-07 KeckI/MOSFIRE     1
+09cnd  F160W   22.56 0.12      3.48    0.41 2012-11-11 HST/WFC3          2
+09cnd  Ks      20.28 0.15      5.19    0.77 2014-06-15 KeckI/MOSFIRE     1
+09cnd  3.6     20.17 0.09      2.40    0.21 2014-03-26 Spitzer/IRAC      1
+09cwl  F390W > 25.92      <    0.17         2012-12-06 HST/WFC3          2
+09cwl  B       26.85 0.27      0.08    0.02 2013-04-09 KeckI/LRIS        1
+09cwl  V       26.79 0.41      0.07    0.03 2014-04-03 KeckI/LRIS        1
+09cwl  R       25.33 0.07      0.24    0.02 2014-02-01 VLT/FORS2         2
+09cwl  R       26.34 0.48      0.09    0.05 2013-04-09 KeckI/LRIS        1
+09cwl  i       26.06 0.35      0.14    0.05 2014-04-30 KeckI/LRIS        1
+09cwl  F160W   25.31 0.15      0.28    0.04 2012-12-06 HST/WFC3          2
+09cwl  3.6   > 22.32      <    0.33         2014-05-09 Spitzer/IRAC      1
+10bfz  u       22.54 0.07      3.62    0.24 2014-04-30 KeckI/LRIS        1
+10bfz  g       22.10 0.14      5.57    0.77 2003-05-30 SDSS              1
+10bfz  B       22.56 0.04      4.18    0.16 2014-04-30 KeckI/LRIS        1
+10bfz  r       21.85 0.14      6.91    0.95 2003-05-30 SDSS              1
+10bfz  R       21.75 0.04      6.46    0.24 2014-04-30 KeckI/LRIS        1
+10bfz  i       22.02 0.32      5.84    2.00 2003-05-30 SDSS              1
+10bfz  i       21.80 0.04      7.15    0.27 2014-04-30 KeckI/LRIS        1
+10bfz  J       21.01 0.11      6.37    0.68 2014-06-15 KeckI/MOSFIRE     1
+10bfz  H       20.31 0.15      7.76    1.15 2014-06-15 KeckI/MOSFIRE     1
+10bfz  Ks      19.55 0.21     10.15    2.17 2014-05-10 P200/WIRC         1
+10bjp  u       23.51 0.08      1.75    0.13 2014-12-18 KeckI/LRIS        1
+10bjp  B       23.60 0.11      1.84    0.20 2013-04-09 KeckI/LRIS        1
+10bjp  V       22.74 0.05      3.46    0.16 2013-12-04 KeckI/LRIS        1
+10bjp  R       22.28 0.11      4.32    0.46 2013-04-09 KeckI/LRIS        1
+10bjp  i       22.30 0.06      4.83    0.27 2013-12-04 KeckI/LRIS        1
+10bjp  z       22.00 0.05      6.33    0.30 2014-12-18 KeckI/LRIS        1
+10bjp  J       21.23 0.16      5.37    0.85 2014-06-15 KeckI/MOSFIRE     1
+10bjp  H       20.68 0.17      5.63    0.95 2014-06-15 KeckI/MOSFIRE     1
+10bjp  Ks      19.81 0.13      8.09    1.03 2014-06-15 KeckI/MOSFIRE     1
+10bjp  Ks      19.91 0.37      7.38    3.00 2014-05-10 P200/WIRC         1
+10cwr  u       23.90 0.08      1.12    0.09 2014-12-18 KeckI/LRIS        1
+10cwr  B       23.87 0.04      1.33    0.05 2013-04-08 KeckI/LRIS        1
+10cwr  g       23.53 0.04      1.58    0.06 2012-01-26 KeckI/LRIS        1
+10cwr  V       23.30 0.04      1.95    0.07 2014-05-28 KeckI/LRIS        1
+10cwr  R       22.76 0.04      2.65    0.10 2013-04-09 KeckI/LRIS        1
+10cwr  i       22.88 0.05      2.73    0.13 2014-05-28 KeckI/LRIS        1
+10cwr  z       23.10 0.08      2.24    0.17 2014-12-18 KeckI/LRIS        1
+10cwr  J       21.65 0.19      3.58    0.69 2014-06-15 KeckI/MOSFIRE     1
+10cwr  H       22.20 0.31      1.37    0.45 2014-06-16 KeckI/MOSFIRE     1
+10cwr  Ks      21.17 0.31      2.30    0.76 2014-06-15 KeckI/MOSFIRE     1
+10cwr  3.6     20.72 0.17      1.45    0.25 2014-09-01 Spiter/IRAC       1
+10fel  u       21.52 0.42      9.23    4.36 2004-06-14 SDSS              1
+10fel  B       21.46 0.04     11.47    0.43 2014-04-29 KeckI/LRIS        1
+10fel  g       20.75 0.07     19.26    1.28 2004-06-14 SDSS              1
+10fel  V       20.44 0.04     25.82    0.97 2014-04-29 KeckI/LRIS        1
+10fel  r       20.07 0.05     35.49    1.67 2004-06-14 SDSS              1
+10fel  R       20.00 0.09     32.30    2.79 2014-04-29 KeckI/LRIS        1
+10fel  i       19.74 0.08     47.59    3.64 2004-06-14 SDSS              1
+10fel  i       19.92 0.05     40.32    1.90 2014-04-29 KeckI/LRIS        1
+10fel  z       19.32 0.17     71.07   12.05 2004-06-14 SDSS              1
+10fel  J       18.46 0.04     66.69    2.50 2014-06-15 KeckI/MOSFIRE     1
+10fel  W1      17.23 0.08     39.74    2.92            WISE              3
+10fel  W2      16.84 0.20     31.13    6.16            WISE              3
+10heh  u       23.96 0.10      1.01    0.10 2016-06-07 KeckI/LRIS        1
+10heh  B       24.13 0.05      1.01    0.05 2013-04-09 KeckI/LRIS        1
+10heh  R       22.76 0.04      2.58    0.10 2013-04-09 KeckI/LRIS        1
+10heh  z       22.82 0.08      2.86    0.22 2016-06-07 KeckI/LRIS        1
+10heh  J       21.30 0.13      4.90    0.62 2014-06-15 KeckI/MOSFIRE     1
+10heh  Ks      20.09 0.12      6.19    0.72 2014-06-15 KeckI/MOSFIRE     1
+10hgi  u       23.73 0.20      1.56    0.31 2016-05-05 KeckI/LRIS        1
+10hgi  B       23.15 0.04      2.99    0.11 2013-08-04 KeckI/LRIS        1
+10hgi  g       22.83 0.06      3.44    0.20 2013-05-07 Magellan/IMACS    4
+10hgi  g       22.69 0.04      3.90    0.15 2015-03-23 KeckI/LRIS        1
+10hgi  R       21.82 0.19      6.90    1.32 2015-03-23 KeckI/LRIS        1
+10hgi  r       22.05 0.06      6.59    0.37            WHT               2
+10hgi  i       21.90 0.06      7.24    0.41 2013-05-07 Magellan/IMACS    4
+10hgi  i       21.96 0.04      6.84    0.26 2015-03-23 KeckI/LRIS        1
+10hgi  z       21.93 0.18      6.92    1.25 2016-05-05 KeckI/LRIS        1
+10hgi  J       20.65 0.08      9.29    0.71 2013-05-20 Magellan/FourStar 4
+10hgi  Ks      19.85 0.13      7.87    1.00 2013-05-20 Magellan/FourStar 4
+10hgi  3.6     18.97 0.04      7.24    0.27 2014-05-22 Spitzer/IRAC      1
+10jwd  u       22.83 0.57      2.70    1.86 2000-05-03 SDSS              1
+10jwd  B       22.55 0.04      4.12    0.15 2013-08-04 KeckI/LRIS        1
+10jwd  g       21.75 0.10      7.54    0.73 2000-05-03 SDSS              1
+10jwd  r       21.05 0.09     14.22    1.23 2000-05-03 SDSS              1
+10jwd  R       20.86 0.04     14.46    0.54 2013-08-04 KeckI/LRIS        1
+10jwd  i       20.44 0.09     24.75    2.14 2000-05-03 SDSS              1
+10jwd  z       19.95 0.25     39.52   10.23 2000-05-03 SDSS              1
+10jwd  J       19.34 0.05     29.53    1.39 2014-06-08 KeckI/MOSFIRE     1
+10jwd  Ks      17.80 0.11     50.79    5.41 2014-10-05 P200/WIRC         1
+10jwd  W1      17.44 0.11     32.72    3.49            WISE              3
+10jwd  W2      16.81 0.21     32.09    6.81            WISE              3
+10nmn  u       22.93 0.05      4.33    0.20 2015-03-23 KeckI/LRIS        1
+10nmn  g       22.17 0.06      7.79    0.44 2015-03-23 KeckI/LRIS        1
+10nmn  F625W   21.49 0.18     12.90    2.33 2012-09-19 HST/ACS           1
+10nmn  R       21.51 0.04     10.65    0.40 2015-03-23 KeckI/LRIS        1
+10nmn  z       21.46 0.09     11.61    1.00 2015-03-23 KeckI/LRIS        1
+10nmn  J       20.48 0.11     11.46    1.22 2014-10-01 KeckI/MOSFIRE     1
+10nmn  H       19.79 0.20     13.32    2.69 2015-06-07 KeckI/MOSFIRE     1
+10nmn  Ks      19.52 0.12     10.86    1.27 2015-06-07 KeckI/MOSFIRE     1
+10qaf  u       23.29 0.07      2.29    0.15 2014-12-18 KeckI/LRIS        1
+10qaf  B       23.28 0.04      2.61    0.10 2013-08-04 KeckI/LRIS        1
+10qaf  g       22.64 0.13      4.03    0.51 2006-09-16 SDSS              1
+10qaf  r       21.64 0.09      9.52    0.82 2006-09-16 SDSS              1
+10qaf  R       21.80 0.09      6.96    0.60 2013-08-04 KeckI/LRIS        1
+10qaf  i       21.51 0.12     10.27    1.20 2006-09-16 SDSS              1
+10qaf  z       21.35 0.04     11.75    0.44 2014-12-18 KeckI/LRIS        1
+10qaf  J       20.16 0.16     14.55    2.31 2014-06-16 KeckI/MOSFIRE     1
+10qaf  H       19.61 0.05     15.19    0.72 2014-09-30 KeckI/MOSFIRE     1
+10qaf  Ks      19.08 0.21     15.93    3.40 2014-06-16 KeckI/MOSFIRE     1
+10qwu  u       24.96 0.10      0.43    0.04 2016-05-05 KeckI/LRIS        1
+10qwu  g       24.43 0.05      0.70    0.03 2013-04-09 KeckI/LRIS        1
+10qwu  V       24.13 0.07      0.92    0.06 2014-04-30 KeckI/LRIS        1
+10qwu  R       23.98 0.06      0.87    0.05 2013-04-09 KeckI/LRIS        1
+10qwu  R       23.88 0.10      0.96    0.09 2013-08-02 KeckII/DEIMOS     1
+10qwu  i       23.72 0.08      1.27    0.10 2014-04-30 KeckI/LRIS        1
+10qwu  J       22.62 0.18      1.47    0.27 2014-06-07 KeckI/MOSFIRE     1
+10scc  B       26.94 0.33      0.10    0.03 2013-08-04 KeckI/LRIS        1
+10scc  B       27.05 0.22      0.09    0.02 2013-09-09 KeckI/LRIS        1
+10scc  V     > 26.77      <    0.09         2013-12-04 KeckI/LRIS        1
+10scc  R       26.87 0.34      0.07    0.03 2013-09-09 KeckI/LRIS        1
+10scc  i       26.68 0.45      0.09    0.05 2013-12-04 KeckI/LRIS        1
+10tpz  u       17.89 0.15    291.01   43.11 2016-06-07 KeckI/LRIS        1
+10tpz  B       16.79 0.16    925.24  146.9  2014-01-10 P60               1
+10tpz  g       16.14 0.30   1456.3   463.5  2014-01-10 P60               1
+10tpz  r       15.41 0.30   2752.5   876.0  2014-01-10 P60               1
+10tpz  i       14.99 0.30   3949.9  1257.   2014-01-10 P60               1
+10tpz  z       14.44 0.10   6567.5   633.6  2016-06-07 KeckI/LRIS        1
+10tpz  J       13.25 0.10   8253.2   796.3  2000-10-12 2MASS             1
+10tpz  H       12.56 0.10   9887.0   953.9  2000-10-12 2MASS             1
+10tpz  Ks      12.04 0.04  10326.    387.5  2000-10-12 2MASS             1
+10tpz  W1      11.91 0.04   5321.1   199.7             WISE              5
+10tpz  W2      11.74 0.04   3416.6   128.2             WISE              5
+10uhf  u       20.33 0.22     27.74    6.23 2005-06-01 SDSS              1
+10uhf  B       20.13 0.10     39.18    3.78 2013-08-04 KeckI/LRIS        1
+10uhf  g       19.24 0.05     77.63    3.66 2005-06-01 SDSS              1
+10uhf  V       18.88 0.04    108.96    4.09 2014-04-30 KeckI/LRIS        1
+10uhf  r       18.47 0.04    155.31    5.83 2005-06-01 SDSS              1
+10uhf  R       18.23 0.11    165.26   17.62 2013-08-04 KeckI/LRIS        1
+10uhf  i       18.05 0.04    226.10    8.49 2005-06-01 SDSS              1
+10uhf  i       18.08 0.04    219.94    8.25 2014-04-30 KeckI/LRIS        1
+10uhf  z       17.72 0.10    310.65   29.97 2005-06-01 SDSS              1
+10uhf  J       16.52 0.06    398.49   22.64 2014-10-19 P200/WIRC         1
+10uhf  H       15.66 0.06    562.32   31.95 2014-10-19 P200/WIRC         1
+10uhf  Ks      15.06 0.04    634.76   23.82 2013-10-07 KeckI/MOSFIRE     1
+10uhf  W1      14.93 0.04    330.52   12.40            WISE              3
+10uhf  W2      14.47 0.04    275.68   10.35            WISE              3
+10vqv  u       23.93 0.06      1.22    0.07 2014-09-23 KeckI/LRIS        1
+10vqv  B       24.15 0.08      1.13    0.09 2013-09-09 KeckI/LRIS        1
+10vqv  r       23.33 0.12      1.96    0.23            WHT               2
+10vqv  R       23.23 0.04      1.83    0.07 2013-09-09 KeckI/LRIS        1
+10vqv  i       22.97 0.04      2.63    0.10 2014-09-23 KeckI/LRIS        1
+10vqv  Ks      21.34 0.36      1.98    0.78 2013-10-07 KeckI/MOSFIRE     1
+10vwg  g     > 24.73      <    2.20         2013-10-06 KeckI/LRIS        1
+10vwg  R     > 23.04      <    5.59         2013-10-06 KeckI/LRIS        1
+10vwg  i     > 22.97      <    5.54         2013-10-06 KeckI/LRIS        1
+10vwg  J       22.92 0.34      1.59    0.58 2014-10-01 KeckI/MOSFIRE     1
+10vwg  Ks    > 20.98      <    3.16         2013-10-07 KeckI/MOSFIRE     1
+10yyc  u       23.27 0.05      2.05    0.10 2014-09-23 KeckI/LRIS        1
+10yyc  B       22.52 0.07      4.72    0.31 2013-10-06 KeckI/LRIS        1
+10yyc  V       21.27 0.05     12.87    0.61 2013-12-04 KeckI/LRIS        1
+10yyc  R       20.64 0.05     18.94    0.89 2014-09-23 KeckI/LRIS        1
+10yyc  i       20.44 0.05     26.10    1.23 2013-10-06 KeckI/LRIS        1
+10yyc  z       20.11 0.05     35.43    1.67 2013-12-04 KeckI/LRIS        1
+10yyc  J       18.97 0.05     42.52    2.00 2014-10-19 P200/WIRC         1
+10yyc  H       18.18 0.05     55.86    2.63 2014-10-19 P200/WIRC         1
+10yyc  Ks      17.63 0.05     59.97    2.83 2014-10-19 P200/WIRC         1
+10aagc u       22.35 0.04      4.39    0.16 2014-12-18 KeckI/LRIS        1
+10aagc B       22.07 0.05      6.66    0.31 2014-05-27 KeckI/LRIS        1
+10aagc g       21.60 0.04      8.95    0.34 2014-05-27 KeckI/LRIS        1
+10aagc R       20.85 0.04     14.93    0.56 2014-05-27 KeckI/LRIS        1
+10aagc i       20.92 0.04     16.20    0.61 2014-05-27 KeckI/LRIS        1
+10aagc z       20.84 0.07     17.64    1.17 2014-12-18 KeckI/LRIS        1
+10aagc H       18.89 0.17     28.77    4.88 2014-10-19 P200/WIRC         1
+10aagc Ks      18.53 0.22     26.01    5.84 2014-05-10 P200/WIRC         1
+11dij  F336W   23.12 0.04      2.16    0.08 2013-05-16 HST/WFC3          2
+11dij  B       23.05 0.14      2.59    0.36 2013-04-09 KeckI/LRIS        1
+11dij  g       22.82 0.08      2.80    0.21 2015-03-23 KeckI/LRIS        1
+11dij  R       22.51 0.14      3.16    0.43 2015-03-23 KeckI/LRIS        1
+11dij  i       22.56 0.04      3.51    0.13 2015-03-23 KeckI/LRIS        1
+11dij  z       23.42 0.10      1.62    0.16 2015-03-23 KeckI/LRIS        1
+11dij  J       22.27 0.17      1.99    0.34 2014-06-15 KeckI/MOSFIRE     1
+11dij  F160W   23.21 0.14      1.90    0.26 2013-05-16 HST/WFC3          2
+11dij  H       22.35 0.31      1.18    0.39 2014-06-16 KeckI/MOSFIRE     1
+11dij  Ks      21.19 0.22      2.24    0.50 2015-06-15 KeckI/MOSFIRE     1
+11dij  3.6     20.52 0.22      1.74    0.39 2014-08-20 Spitzer/IRAC      1
+11dsf  F390W   22.88 0.04      2.66    0.10 2013-08-29 HST/WFC3          2
+11dsf  g       22.66 0.14      3.23    0.44 2003-03-07 SDSS              1
+11dsf  V       22.40 0.04      4.15    0.16 2014-04-30 KeckI/LRIS        1
+11dsf  r       22.34 0.18      4.30    0.78 2003-03-07 SDSS              1
+11dsf  i       22.47 0.28      3.79    1.12 2003-03-07 SDSS              1
+11dsf  i       22.15 0.04      5.10    0.19 2014-04-30 KeckI/LRIS        1
+11dsf  J       21.09 0.10      5.88    0.57 2014-06-08 KeckI/MOSFIRE     1
+11dsf  F160W   21.81 0.07      6.89    0.46 2013-08-29 HST/WFC3          2
+11dsf  Ks      19.45 0.24     11.10    2.75 2014-10-19 P200/WIRC         1
+11hrq  F225W   20.98 0.27     16.10    4.54 2014-11-14 HST/WFC3          1
+11hrq  F336W   20.65 0.17     21.10    3.58 2014-11-14 HST/WFC3          1
+11hrq  u       20.56 0.20     21.85    4.42 2013-12-04 KeckI/LRIS        1
+11hrq  B       20.22 0.10     35.27    3.40 2013-12-04 KeckI/LRIS        1
+11hrq  g       19.77 0.06     46.70    2.65 2013-01-13 KeckI/LRIS        1
+11hrq  F625W   19.39 0.07     65.57    4.37 2014-11-14 HST/WFC3          1
+11hrq  i       19.44 0.08     62.16    4.75 2013-12-04 KeckI/LRIS        1
+11hrq  J       18.28 0.08     78.39    5.99 2014-10-19 P200/WIRC         1
+11hrq  H       17.75 0.08     81.78    6.25 2014-10-19 P200/WIRC         1
+11hrq  Ks      17.42 0.12     72.07    8.42 2014-10-19 P200/WIRC         1
+11hrq  W1      17.23 0.14     39.48    5.35            WISE              3
+11hrq  W2      16.78 0.33     32.96   11.54            WISE              3
+11rks  u       21.89 0.06      7.21    0.41 2014-12-18 KeckI/LRIS        1
+11rks  B       21.75 0.14      9.49    1.31 2013-12-04 KeckI/LRIS        1
+11rks  g       21.17 0.05     14.03    0.66 2012-12-12 KeckI/LRIS        1
+11rks  R       20.51 0.07     21.20    1.41 2012-12-12 KeckI/LRIS        1
+11rks  i       20.58 0.04     22.81    0.86 2013-12-04 KeckI/LRIS        1
+11rks  z       20.44 0.04     26.04    0.98 2014-12-18 KeckI/LRIS        1
+11rks  J       19.38 0.05     29.08    1.37 2014-06-16 KeckI/MOSFIRE     1
+11rks  F160W   20.20 0.08     30.87    2.36 2012-11-12 HST/WFC3          1
+11rks  Ks      18.92 0.34     18.20    6.69 2013-12-18 Magellan/FourStar 4
+11rks  3.6     17.97 0.04     18.20    0.68 2014-10-21 Spitzer/IRAC      1
+12dam  F225W   19.94 0.17     80.63   13.67 2014-10-16 HST/WFC3          1
+12dam  F336W   19.87 0.12     65.25    7.62 2014-10-16 HST/WFC3          1
+12dam  u       19.84 0.05     62.94    2.97 2003-02-11 SDSS              1
+12dam  g       19.39 0.04     88.82    3.33 2003-02-11 SDSS              1
+12dam  g       19.42 0.04     86.39    3.24 2015-03-23 KeckI/LRIS        1
+12dam  F625W   18.84 0.06    134.94    7.67 2014-10-16 HST/WFC3          1
+12dam  r       19.19 0.04     97.87    3.67 2003-02-11 SDSS              1
+12dam  R       19.20 0.04     81.83    3.07 2015-03-23 KeckI/LRIS        1
+12dam  i       18.82 0.04    129.26    4.85 2003-02-11 SDSS              1
+12dam  z       19.26 0.12     83.77    9.79 2003-02-11 SDSS              1
+12dam  J       18.16 0.05     94.12    4.44 2014-05-10 P200/WIRC         1
+12dam  H       17.85 0.07     78.00    5.19 2014-05-10 P200/WIRC         1
+12dam  Ks      17.06 0.09    103.40    8.94 2014-05-10 P200/WIRC         1
+12dam  3.6     16.45 0.04     73.79    2.77 2014-03-26 Spitzer/IRAC      1
+12dam  W1      16.82 0.10     57.60    5.44            WISE              3
+12epg  u       23.05 0.12      2.23    0.26 2016-06-07 KeckI/LRIS        1
+12epg  g       22.47 0.16      3.92    0.62 2004-04-16 SDSS              1
+12epg  r       21.96 0.17      6.19    1.05 2004-04-16 SDSS              1
+12epg  i       21.44 0.17      9.91    1.68 2004-04-16 SDSS              1
+12epg  z       21.30 0.04     11.44    0.43 2016-06-07 KeckI/LRIS        1
+12epg  J       20.07 0.10     15.11    1.46 2015-06-07 KeckI/MOSFIRE     1
+12gwu  u       25.49 0.33      0.26    0.09 2016-05-05 KeckI/LRIS        1
+12gwu  g       24.60 0.08      0.59    0.04 2015-04-23 KeckI/LRIS        1
+12gwu  R       23.76 0.10      1.05    0.10 2015-04-23 KeckI/LRIS        1
+12gwu  i       24.04 0.14      0.93    0.13 2016-05-05 KeckI/LRIS        1
+12mue  u       23.90 0.05      1.26    0.06 2014-11-19 KeckI/LRIS        1
+12mue  g       23.14 0.13      2.48    0.31 2014-08-30 KeckI/LRIS        1
+12mue  i       22.43 0.06      4.34    0.25 2014-08-30 KeckI/LRIS        1
+12mue  z       22.35 0.10      4.63    0.45 2014-11-19 KeckI/LRIS        1
+12mue  Ks      19.51 0.10     10.69    1.03 2014-09-30 KeckI/MOSFIRE     1
+12mkp  g       26.29 0.26      0.13    0.03 2015-11-11 KeckI/LRIS        1
+12mkp  R       25.12 0.27      0.31    0.09 2015-11-11 KeckI/LRIS        1
+12mkp  i       25.40 0.44      0.27    0.14 2015-11-11 KeckI/LRIS        1
+12mxx  u       25.22 0.12      0.34    0.04 2014-09-23 KeckI/LRIS        1
+12mxx  g       24.75 0.05      0.52    0.02 2014-08-30 KeckI/LRIS        1
+12mxx  i       24.00 0.07      0.98    0.07 2014-08-30 KeckI/LRIS        1
+12mxx  z       23.58 0.14      1.45    0.20 2014-09-23 KeckI/LRIS        1
+12mxx  J       22.22 0.21      2.13    0.45 2015-10-18 KeckI/MOSFIRE     1
+12mxx  Ks      21.27 0.30      2.10    0.67 2014-09-30 KeckI/MOSFIRE     1

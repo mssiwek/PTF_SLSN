@@ -1,0 +1,62 @@
+derive the M-Z relation for all galaxies in the NSA catalog
+
+readnsa.py
+	refer to this file to read the nsa catalog in fits file into python
+
+nsa_id.txt
+	file created by readnsa.py
+	that contains all (plateid fiberid mjd)
+
+query.txt
+	query to SDSS DR8 for the parent sample
+	refer to Kewley 2008 and Tremonti 2004 for relevant criteria
+
+MPAJHU_dr8.csv
+	created by excuting the query.txt to DR8
+
+input/test.*
+	copied from ~/work/platefit/platefit/4pyMCZ/GRB/input/SN2006aj*
+	for test purpose
+
+input/test2.*
+	combining SN2006aj and SN2013cq
+
+output/test/
+	created by running the code
+	$ cd /data/sh162/NYU/pyMCZ
+	$ ur_setup
+	$ python pyMCZ/mcz.py test 2000 --path /home/sh162/work/SDSS --md D13all,KD02,PP04,M08 --asciiout --asciidistrib --log test.log
+
+M-Z relation from the SDSS galaxies.ipynb
+	run this notebook file on macbook pro (python3 kernal)
+	to select a sample of size 500 that is representative for the SDSS parent population (inpymcz.pkl)
+	to restore the dataframe
+	inpymcz = pd.read_pickle('inpymcz.pkl')
+
+pymcz_meas.txt, pymcz_err.txt
+	created by the notebook file as input to pymcz
+
+input/test3_meas.txt, test3_err.txt
+	contain the first ten rows from pymcz_meas.txt, pymcz_err.txt
+
+output/test3/
+	created by running the code
+	$ cd /data/sh162/NYU/pyMCZ
+	$ ur_setup
+	$ python pyMCZ/mcz.py test3 2000 --path /home/sh162/work/SDSS --md D13all,KD02,PP04,M08 --asciiout
+
+output/test3/test3_all.txt
+	pull out all relavent results by running
+	$ grep D13_N2S2_O3S2 test3_n2000*.txt > test3_all.txt
+	$ grep KD02comb test3_n2000*.txt >> test3_all.txt
+	$ grep PP04_O3N2 test3_n2000*.txt >> test3_all.txt
+	$ grep M08_N2Ha test3_n2000*.txt >> test3_all.txt
+
+/data/sh162/NYU/pyMCZ/input/pymcz_meas.txt, pymcz_err.txt
+	copied from ~/work/SDSS/pymcz_meas.txt, pymcz_err.txt
+
+/data/sh162/NYU/pyMCZ/output/
+	created by running the code
+        $ cd /data/sh162/NYU/pyMCZ
+        $ ur_setup
+        $ python pyMCZ/mcz.py pymcz 2000 --path /data/sh162/NYU/pyMCZ --md D13all,KD02,PP04,M08 --asciiout

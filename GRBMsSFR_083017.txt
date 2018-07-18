@@ -1,0 +1,19 @@
+# Including all GRBs in Maryam's email (refer to email.txt), ref are for SFRs
+#  galnum         reference   hostname and region  logMs   elogMs  SFR    eSFR  logMs_Levesque10
+1  Savaglio2009      GRB980425/SN1998bw-SNsite     8.79    0.30    0.338  0.08  9.22  0.52
+2  Savaglio2009      GRB031203/SN2003lw-host       8.93    0.43    16.484 -     8.26  0.45
+3  Savaglio2009      XRF020903-host                8.98    0.07    3.445  -     8.79  0.22
+4  Savaglio2009      GRB/XRF060218/SN2006aj-host   7.89    0.08    0.065  -     8.37  0.14
+5  Savaglio2009      GRB030329/SN2003dh-host       7.85    0.06    0.143  -     7.91  0.28
+6  Levesque2011      GRB100316D/SN2010bh-SNsite    9.04    -       0.182  -     -     -
+7  Schulze2014       GRB120422A/SN2012bz-SNsite    9.06    0.04    0.52   0.10  -     -
+8  Xu2013            GRB130427A/SN2013cq-host      9.43    0.15    1.17   0.10  -     -
+9  Kelly2013         GRB130702A/SN2013dx-host      8.01    0.70    0.065  -     -     -
+10 Cano2017          GRB161219B/SN2016jca-SNsite   8.88    1.03    0.25   0.30  -     -
+#
+# note
+0. SFR in unit of solar mass per year, corrected for aperture-slit loss and dust extinction (Savaglio), measured from optical emission lines or UV emission (GHost)
+1. Ms and SFR values are different between the original Savaglio paper and GHost webpage (same as in GRB_Literature_Table.txt). Decide to use the GHost webpage values.
+2-5. SFR from Savaglio, based on Halpha
+6-9. SFR from GHost
+10. from Cano2017, based on SED fitting

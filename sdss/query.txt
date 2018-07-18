@@ -1,0 +1,44 @@
+
+query to SDSS DR8 for the parent sample
+refer to Kewley 2008 and Tremonti 2004 for relevant criteria
+refer to /data/sh162/Cornell/caborojo1/shan/alpha40/sloan/query.txt for sample query
+
+SELECT
+  i.specObjID, i.plateid, i.mjd, i.fiberid, 
+  i.z, i.z_err, i.z_warning, 
+  l.oii_flux, l.oii_flux_err,
+  l.h_gamma_flux, l.h_gamma_flux_err,
+  l.h_beta_flux, l.h_beta_flux_err,
+  l.oiii_4959_flux, l.oiii_4959_flux_err,
+  l.oiii_5007_flux, l.oiii_5007_flux_err,
+  l.h_alpha_flux, l.h_alpha_flux_err,
+  l.nii_6584_flux, l.nii_6584_flux_err,
+  l.sii_6717_flux, l.sii_6717_flux_err,
+  l.sii_6731_flux, l.sii_6731_flux_err, 
+  e.*
+FROM
+  galSpecInfo i, galSpecLine l, galSpecExtra e
+INTO
+  mydb.MPAJHU_dr8
+WHERE
+  i.specObjID = l.specObjID
+  AND l.specObjID = e.specObjID
+  AND i.z_warning = 0
+  AND i.z > 0.04
+  AND i.z < 0.1
+  AND l.oii_flux_err != 0
+  AND l.h_beta_flux_err != 0
+  AND l.oiii_5007_flux_err != 0
+  AND l.h_alpha_flux_err != 0
+  AND l.nii_6584_flux_err != 0
+  AND l.sii_6717_flux_err != 0
+  AND l.sii_6731_flux_err != 0
+  AND l.oii_flux/l.oii_flux_err > 8
+  AND l.h_beta_flux/l.h_beta_flux_err > 8
+  AND l.oiii_5007_flux/l.oiii_5007_flux_err > 8
+  AND l.h_alpha_flux/l.h_alpha_flux_err > 8
+  AND l.nii_6584_flux/l.nii_6584_flux_err > 8
+  AND l.sii_6717_flux/l.sii_6717_flux_err > 8
+  AND l.sii_6731_flux/l.sii_6731_flux_err > 8
+  AND (e.bptclass = 1 OR e.bptclass = 2)
+

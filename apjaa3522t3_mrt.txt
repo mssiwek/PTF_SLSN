@@ -1,0 +1,66 @@
+Title: Host-Galaxy Properties of 32 Low-Redshift Superluminous Supernovae 
+       from the Palomar Transient Factory 
+Authors: Perley D.A., Quimby R.M., Yan L., Vreeswijk P.M., De Cia A., 
+         Lunnan R., Gal-Yam A., Yaron O., Filippenko A.V., Graham M.L., 
+         Laher R., Nugent P.E. 
+Table: Log of spectroscopic observations
+================================================================================
+Byte-by-byte Description of file: apjaa3522t3_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6 A6     ---   PTF       PTF Identifier
+   8- 17 A10    ---   Obs       Observation date, YYYY-MM-DD
+  19- 19 A1     ---   flag      Observation flag (1)
+  21- 38 A18    ---   Setup     Setup (2) 
+  40- 65 A26    ---   Exposure  Exposure sequence (3)
+  67- 71 F5.1   ---   PA        Sky position angle (4)
+--------------------------------------------------------------------------------
+Note (1): Observation flags
+    d = Spectrum contains significant supernova contribution; 
+    e = Slit centered on the SN and not aligned with the host nucleus. 
+Note (2): LRIS-B grism and LRIS-R grating, unless another instrument is specified. 
+Note (3): Exposure sequence (seconds per exposure).  Comma denotes separate 
+    sequences for LRIS-B and LRIS-R. 
+Note (4): Sky position angle used for the slit, in degrees.  Zero = North up, 
+    with a positive angle indicating rotation counterclockwise on the sky.
+--------------------------------------------------------------------------------
+09as   2016-01-12   400/3400, 400/8500 2x900, 2x900               235.  
+09uy   2014-04-30   400/3400, 400/8500 1300, 2x600                 44.  
+09atu  2014-04-29   600/4000, 400/8500 1140, 1140                   5.  
+09cnd  2014-05-28   400/3400, 400/8500 3x503, 3x500               308.5 
+09cwl  2014-04-29   600/5000, 400/8500 1000                       171.5 
+09cwl  2014-05-28   400/3400, 400/8500 3x803, 3x800               171.5 
+10bfz  2015-04-23   400/3400, 400/8500 2x600, 2x600               285.  
+10bjp  2013-12-04   600/4000, 400/8500 600+700, 2x600             222.  
+10cwr  2014-11-29   400/3400, 400/8500 930,  900                  307.7 
+10fel  2014-05-27   400/3400, 400/8500 1200, 2x500                 31.  
+10heh  2014-04-29   600/4000, 400/8500 900+2x970, 3x900           240.5 
+10hgi  2011-06-01 d DEIMOS 600ZD       3x1200+900                  62.  
+10jwd  2014-04-29   600/4000, 400/8500 2x600, 2x600                33.  
+10nmn  2014-04-29   300/5000, 400/8500 1300+2x1200, 900+1150+1130  47.  
+10qaf  2013-10-06   600/4000, 400/8500 1360, 2x600                183.  
+10qwu  2014-05-28   400/3400, 400/8500 2x603, 2x600               314.  
+10qwu  2014-07-31   400/3400, 400/8500 1200, 2x600                130.  
+10scc  2014-05-28   400/3400, 400/8500 803+733, 700+660           274.  
+10tpz  2016-06-06   400/3400, 400/8500 530+550, 2x500              70.  
+10uhf  2013-10-06   600/4000, 400/8500 720, 700                   199.  
+10uhf  2013-10-06   600/4000, 400/8500 1320, 2x600                225.  
+10vqv  2013-10-06   600/4000, 400/8500 2000, 2x900                181.  
+10vwg  2013-10-06   600/4000, 400/8500 720, 700                    86.5 
+10yyc  2013-12-04   600/4000, 400/8500 1130, 2x500                 90.  
+10aagc 2013-12-02   400/3400, 400/8500 1300, 2x600                  0.  
+11dij  2014-04-29   600/4000, 400/8500 1100, 2x500                110.  
+11dsf  2014-04-29   600/4000, 400/8500 600+540, 600+500             0.  
+11hrq  2013-10-06   600/4000, 400/8500 1360, 2x600                210.  
+11rks  2012-07-15 e 400/3400, 400/8500 2x1800+900, 5x850          338.  
+11rks  2013-10-06   600/4000, 400/8500 2000, 2x900                207.  
+11rks  2013-12-04   600/4000, 400/8500 900,   900                 207.  
+12dam  2014-04-29   600/4000, 400/8500 1200,  1200                286.9 
+12dam  2014-04-30   400/3400, 400/8500 2x1000, 2x100              286.9 
+12epg  2016-01-06   DEIMOS 600ZD       3x1200                      74.  
+12gwu  2013-05-09 d 400/3400, 400/8500 2x900, 2x870               323.  
+12mkp  2015-01-22 d 400/3400, 400/8500 2x900                      170.  
+12mue  2014-09-23   400/3400, 400/8500 2x600, 2x600                 9.  
+12mxx  2014-08-31   400/3400, 400/8500 600, 590                   250.  
+12mxx  2014-09-23   400/3400, 400/8500 900+1900, 3x900            104.  

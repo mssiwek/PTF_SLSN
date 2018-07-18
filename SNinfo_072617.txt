@@ -1,0 +1,56 @@
+# file recording some basic info for the SN hosts from the clean sample (ones outside of the original lists: 12gty, 11mnb, 11mwk, 12gvr)
+# compared to SNinfo_072617.txt, 10bip is changed from Ic to uncertain (Ic/Ic-bl), and 09dzt is changed from Ic to other (Ib)
+# note that the other cases should all be eliminated from the paper, the uncertain cases should be included in plots and tables
+# galnum PTFname and region type
+1    PTF10xem-host-SNsite  Ic-BL
+2    PTF10wal-host-SNsite  Ic
+3      PTF09iqd-host-HII3  Ic
+4    PTF10xik-host-SNsite  Ic
+5    PTF10ood-host-SNsite  Ic
+6    PTF10svt-host-SNsite  uncertain
+7    PTF12ktu-host-SNsite  Ic
+8    PTF12jxd-host-SNsite  Ic
+9     PTF12as-host-SNsite  Ic-BL
+10  PTF10aavz-host-SNsite  Ic-BL
+11   PTF10bzf-host-SNsite  Ic-BL
+12   PTF10gvb-host-SNsite  uncertain
+13        PTF09q-host-nuc  other
+14   PTF10hfe-host-SNsite  Ic
+15   PTF10ciw-host-SNsite  Ic-BL
+16      PTF10bip-host-nuc  uncertain
+17   PTF11rka-host-SNsite  Ic
+18   PTF10bhu-host-SNsite  Ic
+19   PTF11bov-host-SNsite  Ic
+20   PTF10lbo-host-SNsite  Ic
+21   PTF11cmh-host-SNsite  Ic-BL
+22   PTF11qcj-host-SNsite  Ic-BL
+23   PTF11ixk-host-SNsite  Ic
+24       PTF09sk-host-nuc  Ic-BL
+25  PTF10acbu-host-SNsite  other
+26   PTF12cjy-host-SNsite  Ic
+27   PTF10fmx-host-SNsite  Ic
+28   PTF12fgw-host-SNsite  Ic
+29   PTF09dzt-host-SNsite  other
+30   PTF12dcp-host-SNsite  Ic
+31    PTF09ps-host-SNsite  uncertain
+32   PTF11jgj-host-SNsite  Ic
+33   PTF10qts-host-SNsite  Ic-BL
+34   PTF10hie-host-SNsite  Ic
+35   PTF12dtf-host-SNsite  Ic
+36   PTF11img-host-SNsite  Ic-BL
+37      PTF12hvv-host-nuc  Ic
+38   PTF12elh-host-SNsite  other
+39     PTF10yow-host-HII1  Ic
+40     PTF11klg-host-HII2  Ic
+41   PTF10vgv-host-SNsite  Ic-BL
+42   PTF10qqd-host-SNsite  Ic
+43   PTF12hni-host-SNsite  uncertain
+44   PTF10tqv-host-SNsite  Ic-BL
+45   PTF10zcn-host-SNsite  Ic
+46     PTF10tqi-host-HII2  Ic
+47      PTF10osn-host-HII  Ic
+48   PTF11hyg-host-SNsite  Ic
+49   PTF10ysd-host-SNsite  Ic
+50   PTF11lbm-host-SNsite  Ic-BL
+51   PTF11gcj-host-SNsite  Ic-BL
+52   PTF12gzk-host-SNsite  uncertain

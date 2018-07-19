@@ -1,4 +1,4 @@
-# SLSN_Ic_hosts
+﻿# README
 Our project comparing metallicities and SFRs of PTF SLSN, Ic, Ic-BL and SN-GRB hosts
 
 This repo contains the code to generate all plots and tables comparing PTF SLSN/Ic/Ic-BL host galaxies. All the files in this repo are described in this README file. 

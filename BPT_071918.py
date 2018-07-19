@@ -538,10 +538,10 @@ for ax in [lower_left, top_histogram, side_histogram]:
 	plt.setp(ax.xaxis.get_ticklines(minor=True), 'markeredgewidth', 1)
 
 if noflags == 'False':
-    plt.savefig('BPT_042318.pdf', format='pdf')
+    plt.savefig('BPT_071918.pdf', format='pdf')
     plt.close(fig)
 if noflags == 'True':
-    plt.savefig('BPT_042318_noflags.pdf', format='pdf')
+    plt.savefig('BPT_071918_noflags.pdf', format='pdf')
     plt.close(fig)
 
 

@@ -17,15 +17,20 @@ Most of the original data (e.g. SLSN fluxes and metallicities from Perley et al.
 # Code to generate tables and plots
 
 * ## BPT Diagram
-** Code to generate plot: BPT_071918.py
-** Input: 
+** Code to generate plot:** 
+
+BPT_071918.py
+
+** Input: **
+
 platefitfile = 'platefitflux_072117.txt'
 SNinfofile = 'SNinfo_072617.txt'
 GRBfile = 'GRBflux_083017_shan_astro9.txt'
 SDSSfile = 'sdss_meas.txt'
 SDSSerr = 'sdss_err.txt'
 SLSNfile = 'SLSN_i_flux.txt'
-** Output: 
+
+** Output: **
 Some SLSNe are flagged as they have upper limit measurements. If the code is run with those flagged hosts included, the output file is BPT_071918.pdf, if excluded  BPT_071918_noflags.pdf
 
 * ## 

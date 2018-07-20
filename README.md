@@ -11,9 +11,7 @@ All the SLSN host data is all from P16, so the paper is here too: `'Perley_2016_
 * GRB line fluxes: `'GRBflux_083017_shan_astro9.txt'` -- there is another file with the same fluxes (`'GRBflux_083017.txt'`), but it has a slightly different format which produces errors when used as input in the below scripts.
 
 * PTF SN Ic/Ic-BL line fluxes: 
-
 `'platefitflux_072117.txt'` with header and observing info, such as instrument and region of host galaxy that was observed. 
-
 `'ptfflux_072117.txt'` no header, just plain line fluxes and errors
 
 

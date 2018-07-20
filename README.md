@@ -23,11 +23,11 @@ All the SLSN host data is all from P16, so the paper is here too: `'Perley_2016_
 
 * PTF SN Ic/Ic-BL metallicities: `'ptfoh_072617.txt'`, however for generating the metallicity distributions (`'OH_dist_all.py'`) we want to have files containing SNe Ic and Ic-BL metallicity separately. The script `'separate_Ic_Icbl_z.py'` does this and saves the following files:
 
-* `'ptf_unc_z.txt'`: contains host metallicities of SNe with unclear classification
+`'ptf_unc_z.txt'`: contains host metallicities of SNe with unclear classification
 
-* `'ptf_icbl_z.txt'`: host metallicities of SNe Ic-BL
+`'ptf_icbl_z.txt'`: host metallicities of SNe Ic-BL
 
-* `'ptf_ic_z.txt'`: host metallicities of SNe Ic
+`'ptf_ic_z.txt'`: host metallicities of SNe Ic
 
 
 

@@ -68,14 +68,7 @@ Some SLSNe are flagged as they have upper limit measurements. If the code is run
 
 
 
-
-
-
-
-
-
-* ## Redshift-Magnitude, Mass-Metallicity, Mass-SFR and 
-sSFR-Metallicity plots
+* ## Redshift-Magnitude, Mass-Metallicity, Mass-SFR and sSFR-Metallicity plots
 
 **Code to generate plots:** `’OH_MB_061118.py’`
 

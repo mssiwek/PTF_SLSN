@@ -34,9 +34,6 @@ fp = os.getcwd()
 #go two paths up, then into the folder 'data' where the above files are stored
 fp2 = str(pathlib.Path(__file__).parents[2]) + '/data/'
 
-inslsn1 = 'apjaa3522t1_mrt.txt'
-slsn_t1 = ascii.read(inslsn1)
-
 #note: slsn does not use names=z_names because not all metallicity calibrations are available in this table
 #slsn only has: KD02comb, PP04_O3N2, M08_N2Ha, M13_O3N2
 
@@ -302,7 +299,7 @@ for z_scale in ['KD02comb', 'PP04_O3N2', 'M08_N2Ha', 'M13_O3N2']:
     fig.add_subplot(ax1)
     fig.add_subplot(ax2)
     
-plt.savefig(fp + '/' + 'OH_dist_062918_only_I.jpg')
+plt.savefig(fp + '/' + 'OH_dist_062918_only_I.pdf')
 plt.close()
 
 

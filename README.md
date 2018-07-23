@@ -164,3 +164,43 @@ Metallicities of SNe Ic-BL hosts.
 
 
 
+* ## Metallicity table
+
+
+**Code to generate plot:** `'OH_dist_all.py'`
+
+**Input:**
+
+* ptffluxfile = `'ptfflux_072117.txt'`
+
+* grbfluxfile = `'GRBflux_083017.txt'`
+
+* slsnohfile= `'SLSN_i_z.txt'`
+
+* ptfohfile = `'ptfoh_072617.txt'`
+
+* grbohfile = `'grboh_083017.txt'`
+
+* OHfile1 = `'platefitflux_072617.pkl'`
+
+* OHfile2 = `'GRB_083017.pkl'`
+
+
+**Output:**
+The output is a latex table that can be directly put into the paper draft: `'table7_072318.tex'`.
+
+We are applying hypothesis tests to see if two samples are drawn from the same underlying distributions (compare GRB, SN Ic/Ic-BL and SLSNe Ic host metallicities). The above table contains mean, median, 25th and 75th percentile of the metallicity distribution for each species, but the script also compares all the distributions to one another and prints out the likelihood that they were drawn from the same distribution. 
+
+NOTE: If data contains upper limits, `asurv` must be used -- this is probably the case for a large fraction of the SLSN data and still needs to be investigated. For further help on `asurv` see `https://github.com/nyusngroup/PTFhostspaper/blob/master/asurv.md`.
+
+
+
+
+ 
+
+
+
+
+
+
+

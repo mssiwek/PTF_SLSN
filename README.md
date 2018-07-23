@@ -33,6 +33,8 @@ All the SLSN host data is all from P16, so the paper is here too: `'Perley_2016_
 
 * PTF SLSN metallicities: original table 6 (P16) `'apjaa3522t6_mrt.txt'`, which has been processed to filter out SLSNe II and make the format (e.g. column headers) consistent with other line flux files. The script that does this is `'format_t5_t6'`, and produces the SLSN line flux files `'slsn_i_z.txt'` (SLSNe Ic only) and `'slsn_z.txt'` (all SLSNe published in P16). The following calibrations are available: KD02comb, PP04_O3N2, M08_N2Ha, M13_O3N2 -- we want to eventually calculate those ourselves with pyMCZ, however we are waiting to hear back from Dan how he treated his upper limits before we can do this. 
 
+* SDSS galaxies: An additional folder (`'sdss'`) contains line fluxes, metallicities and other data to plot e.g. the M-Z relation and emission line ratios (see `BPT diagram`) for the SDSS galaxies as a comparison sample to our SN hosts.
+
 
 # Code to generate tables and plots
 

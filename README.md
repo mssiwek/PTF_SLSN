@@ -8,14 +8,14 @@ All the SLSN host data is all from P16, so the paper is here too: `'Perley_2016_
 
 # Data
 
-* GRB line fluxes: `'GRBflux_083017_shan_astro9.txt'` -- there is another file with the same fluxes (`'GRBflux_083017.txt'`), but it has a slightly different format which produces errors when used as input in the below scripts.
+* GRB line fluxes: `'GRBflux_083017_shan_astro9.txt'` -- there is another file with the same fluxes (`'GRBflux_083017.txt'`), but it has a slightly different format which produces errors when used as input in the below scripts. Therefore `'GRBflux_083017_shan_astro9.txt'` is used as the input file for GRB line fluxes.
 
 * PTF SN Ic/Ic-BL line fluxes: 
 `'platefitflux_072117.txt'` with header and observing info, such as instrument and region of host galaxy that was observed. 
-`'ptfflux_072117.txt'` no header, just plain line fluxes and errors
+`'ptfflux_072117.txt'` contains no header or additional info, just plain line fluxes and errors and is used as data input to generate plots.
 
 
-* PTF SLSN line fluxes: original table 5 (P16) `'apjaa3522t5_mrt.txt'`, which has been processed to filter out SLSNe II and make the format (e.g. column headers) consistent with other line flux files. The script that does this is `'format_t5_t6'`, and produces the SLSN line flux files `'slsn_i_flux.txt'` (SLSNe Ic only) and `'slsn_flux.txt'` (all SLSNe published in P16).
+* PTF SLSN line fluxes: original table 5 (P16) `'apjaa3522t5_mrt.txt'`, which has been processed to filter out SLSNe II and make the format (e.g. column headers) consistent with other line flux files. The script that does this is `'format_t5_t6'`, and produces the SLSN line flux files `'slsn_i_flux.txt'` (SLSNe Ic only) and `'slsn_flux.txt'` (SLSNe Ic and II published in P16).
 
 
 * GRB metallicities: `'grboh_083017.txt'`, contains the following metallicity calibrations and their uncertainties: D13_N2S2_O3S2 (-/+), KD02comb (-/+), PP04_O3N2 (-/+), M08_N2Ha (-/+), E(B-V) (-/+), M13_O3N2 (-/+)
@@ -23,7 +23,7 @@ All the SLSN host data is all from P16, so the paper is here too: `'Perley_2016_
 
 * PTF SN Ic/Ic-BL metallicities: `'ptfoh_072617.txt'`, however for generating the metallicity distributions (`'OH_dist_all.py'`) we want to have files containing SNe Ic and Ic-BL metallicity separately. The script `'separate_Ic_Icbl_z.py'` does this and saves the following files:
 
-`'ptf_unc_z.txt'`: contains host metallicities of SNe with unclear classification
+`'ptf_unc_z.txt'`: contains host metallicities of SNe with unclear classification (see PTF paper, Modjaz+ in prep)
 
 `'ptf_icbl_z.txt'`: host metallicities of SNe Ic-BL
 
@@ -53,7 +53,7 @@ SN subtypes
 Emission line fluxes of the SN-GRB hosts as compiled from the literature
 
 * SDSSfile = `'sdss_meas.txt'`
-Line fluxes of 500 SDSS galaxies used as a comparison sample 
+Line fluxes of 500 SDSS galaxies used as a comparison sample (the starforming branch of the BPT diagram)
 
 * SDSSerr = `'sdss_err.txt'`
 Uncertainties of the above SDSS galaxy line fluxes
